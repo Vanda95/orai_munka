@@ -10,3 +10,31 @@ tr, td{
 
 tr:nth-child(even) {background: #ccc}
 tr:nth-child(odd) {background: red}
+
+.header{
+background-color: red;
+grid-area:h;
+}
+
+.main{
+background-color: yellow;
+grid-area:h;
+}
+
+.aside{
+background-color: blue;
+grid-area:h;
+}
+
+.footer{
+background-color: green;
+grid-area:h;
+}
+
+.grid{
+    width:100vr;
+    height:100vr;
+    display: grid;
+    grid-template-areas: ;
+
+}
